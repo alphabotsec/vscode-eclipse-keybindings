@@ -1,0 +1,251 @@
+{
+    "name": "vscode-eclipse-keybindings",
+    "displayName": "Eclipse keymap",
+    "description": "Eclipse keybindings for Visual Studio Code",
+    "version": "0.8.0",
+    "publisher": "alphabotsec",
+    "engines": {
+        "vscode": "^1.6.0"
+    },
+    "categories": [
+        "Keymaps"
+    ],
+    "keywords": [
+        "keybindings",
+        "keymap"
+    ],
+    "icon": "vscode-eclipse-keybindings.svg",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/alphabotsec/vscode-eclipse-keybindings.git"
+    },
+    "bugs": {
+        "url": "https://github.com/alphabotsec/vscode-eclipse-keybindings/issues"
+    },
+    "contributes": {
+        "keybindings": [
+            {
+                "mac": "cmd+3",
+                "win": "ctrl+3",
+                "linux": "ctrl+3",
+                "key": "ctrl+3",
+                "command": "workbench.action.showCommands"
+            },
+            {
+                "mac": "cmd+shift+r",
+                "win": "ctrl+shift+r",
+                "linux": "ctrl+shift+r",
+                "key": "ctrl+shift+r",
+                "command": "workbench.action.quickOpen"
+            },
+            {
+                "mac": "ctrl+h",
+                "win": "ctrl+h",
+                "linux": "ctrl+h",
+                "key": "ctrl+h",
+                "command": "workbench.view.search"
+            },
+            {
+                "mac": "cmd+shift+t",
+                "win": "ctrl+shift+t",
+                "linux": "ctrl+shift+t",
+                "key": "ctrl+shift+t",
+                "command": "workbench.action.showAllSymbols"
+            },
+            {
+                "mac": "cmd+l",
+                "win": "ctrl+l",
+                "linux": "ctrl+l",
+                "key": "ctrl+l",
+                "command": "workbench.action.gotoLine"
+            },
+            {
+                "mac": "cmd+w",
+                "win": "ctrl+w",
+                "linux": "ctrl+w",
+                "key": "ctrl+w",
+                "command": "workbench.action.closeActiveEditor"
+            },
+            {
+                "mac": "cmd+shift+s",
+                "win": "ctrl+shift+s",
+                "linux": "ctrl+shift+s",
+                "key": "ctrl+shift+s",
+                "command": "workbench.action.files.saveAs"
+            },
+            {
+                "mac": "cmd+alt+s",
+                "win": "ctrl+alt+s",
+                "linux": "ctrl+alt+s",
+                "key": "ctrl+alt+s",
+                "command": "workbench.action.files.saveAll"
+            },
+            {
+                "mac": "cmd+shift+/",
+                "win": "ctrl+shift+/",
+                "linux": "ctrl+shift+/",
+                "key": "ctrl+shift+/",
+                "command": "editor.action.commentLine",
+                "when": "editorTextFocus"
+            },
+            {
+                "mac": "cmd+o",
+                "win": "ctrl+o",
+                "linux": "ctrl+o",
+                "key": "ctrl+o",
+                "command": "workbench.action.gotoSymbol",
+                "when": "editorTextFocus"
+            },
+            {
+                "mac": "cmd+shift+f",
+                "win": "ctrl+shift+f",
+                "linux": "ctrl+shift+f",
+                "key": "ctrl+shift+f",
+                "command": "editor.action.formatSelection",
+                "when": "editorTextFocus"
+            },
+            {
+                "mac": "cmd+alt+down",
+                "win": "ctrl+alt+down",
+                "linux": "ctrl+alt+down",
+                "key": "ctrl+alt+down",
+                "command": "editor.action.copyLinesDownAction",
+                "when": "editorTextFocus"
+            },
+            {
+                "mac": "cmd+alt+up",
+                "win": "ctrl+alt+up",
+                "linux": "ctrl+alt+up",
+                "key": "ctrl+alt+up",
+                "command": "editor.action.copyLinesUpAction",
+                "when": "editorTextFocus"
+            },
+            {
+                "mac": "alt+down",
+                "win": "alt+down",
+                "linux": "alt+down",
+                "key": "alt+down",
+                "command": "editor.action.moveLinesDownAction",
+                "when": "editorTextFocus"
+            },
+            {
+                "mac": "alt+up",
+                "win": "alt+up",
+                "linux": "alt+up",
+                "key": "alt+up",
+                "command": "editor.action.moveLinesUpAction",
+                "when": "editorTextFocus"
+            },
+            {
+                "mac": "cmd+d",
+                "win": "ctrl+d",
+                "linux": "ctrl+d",
+                "key": "ctrl+d",
+                "command": "editor.action.deleteLines",
+                "when": "editorTextFocus"
+            },
+            {
+                "mac": "alt+shift+r",
+                "win": "alt+shift+r",
+                "linux": "alt+shift+r",
+                "key": "alt+shift+r",
+                "command": "editor.action.rename",
+                "when": "editorTextFocus"
+            },
+            {
+                "mac": "cmd+space",
+                "win": "ctrl+space",
+                "linux": "ctrl+space",
+                "key": "ctrl+space",
+                "command": "editor.action.triggerSuggest",
+                "when": "editorTextFocus"
+            },
+            {
+                "mac": "f3",
+                "win": "f3",
+                "linux": "f3",
+                "key": "f3",
+                "command": "editor.action.goToDeclaration",
+                "when": "editorTextFocus"
+            },
+            {
+                "mac": "cmd+1",
+                "win": "ctrl+1",
+                "linux": "ctrl+1",
+                "key": "ctrl+1",
+                "command": "editor.action.quickFix",
+                "when": "editorTextFocus"
+            },
+            {
+                "mac": "cmd+shift+g",
+                "win": "ctrl+shift+g",
+                "linux": "ctrl+shift+g",
+                "key": "ctrl+shift+g",
+                "command": "editor.action.referenceSearch.trigger",
+                "when": "editorTextFocus"
+            },
+            {
+                "mac": "cmd+shift+b",
+                "win": "ctrl+shift+b",
+                "linux": "ctrl+shift+b",
+                "key": "ctrl+shift+b",
+                "command": "editor.debug.action.toggleBreakpoint",
+                "when": "editorTextFocus"
+            },
+            {
+                "mac": "f8",
+                "win": "f8",
+                "linux": "f8",
+                "key": "f8",
+                "command": "workbench.action.debug.continue",
+                "when": "inDebugMode"
+            },
+            {
+                "mac": "cmd-f11",
+                "win": "ctrl-f11",
+                "linux": "ctrl-f11",
+                "key": "ctrl-f11",
+                "command": "workbench.action.debug.start",
+                "when": "!inDebugMode"
+            },
+            {
+                "mac": "f5",
+                "win": "f5",
+                "linux": "f5",
+                "key": "f5",
+                "command": "workbench.action.debug.stepInto",
+                "when": "inDebugMode"
+            },
+            {
+                "mac": "f7",
+                "win": "f7",
+                "linux": "f7",
+                "key": "f7",
+                "command": "workbench.action.debug.stepOut",
+                "when": "inDebugMode"
+            },
+            {
+                "mac": "f6",
+                "win": "f6",
+                "linux": "f6",
+                "key": "f6",
+                "command": "workbench.action.debug.stepOver",
+                "when": "inDebugMode"
+            },
+            {
+                "mac": "cmd+f2",
+                "win": "ctrl+f2",
+                "linux": "ctrl+f2",
+                "key": "ctrl+f2",
+                "command": "workbench.action.debug.stop",
+                "when": "inDebugMode"
+            }
+        ]
+    },
+    "scripts": {
+        "postinstall": "node ./node_modules/vscode/bin/install"
+    },
+    "devDependencies": {
+        "vscode": "^1.0.0"
+    }
+}
