@@ -1,6 +1,6 @@
 {
     "name": "vscode-eclipse-keybindings",
-    "displayName": "Eclipse keymap",
+    "displayName": "Eclipse Keymap",
     "description": "Eclipse keybindings for Visual Studio Code",
     "version": "0.8.0",
     "publisher": "alphabotsec",
@@ -71,14 +71,14 @@
                 "win": "ctrl+shift+s",
                 "linux": "ctrl+shift+s",
                 "key": "ctrl+shift+s",
-                "command": "workbench.action.files.saveAs"
+                "command": "workbench.action.files.saveAll"
             },
             {
                 "mac": "cmd+alt+s",
                 "win": "ctrl+alt+s",
                 "linux": "ctrl+alt+s",
                 "key": "ctrl+alt+s",
-                "command": "workbench.action.files.saveAll"
+                "command": "workbench.action.files.saveAs"
             },
             {
                 "mac": "cmd+shift+/",
