@@ -1,6 +1,8 @@
 # Eclipse Keymap for Visual Studio Code
 
-This extension ports the most popular Eclipse keyboard shortcuts to Visual Studio Code. After installing the extension and restarting VS Code your favorite keyboard shortcuts from Eclipse are now available. 
+This extension ports the most popular Eclipse keyboard shortcuts to Visual Studio Code. After installing the extension and restarting VS Code your favorite keyboard shortcuts from Eclipse are available.
+Eclipse key bindings for Windows, Linux and macOS.
+
 
 ## What key bindings are included?
 

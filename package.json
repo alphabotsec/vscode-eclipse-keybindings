@@ -81,6 +81,13 @@
                 "command": "workbench.action.files.saveAs"
             },
             {
+                "mac": "cmd+shift+{",
+                "win": "ctrl+{",
+                "linux": "ctrl+{",
+                "key": "ctrl+{",
+                "command": "workbench.action.splitEditor"
+            },
+            {
                 "mac": "cmd+shift+/",
                 "win": "ctrl+shift+/",
                 "linux": "ctrl+shift+/",
@@ -190,6 +197,22 @@
                 "linux": "ctrl+shift+b",
                 "key": "ctrl+shift+b",
                 "command": "editor.debug.action.toggleBreakpoint",
+                "when": "editorTextFocus"
+            },
+            {
+                "mac": "cmd+shift+x",
+                "win": "ctrl+shift+x",
+                "linux": "ctrl+shift+x",
+                "key": "ctrl+shift+x",
+                "command": "editor.action.transformToUppercase",
+                "when": "editorTextFocus"
+            },
+            {
+                "mac": "cmd+shift+y",
+                "win": "ctrl+shift+y",
+                "linux": "ctrl+shift+y",
+                "key": "ctrl+shift+y",
+                "command": "editor.action.transformToLowercase",
                 "when": "editorTextFocus"
             },
             {
