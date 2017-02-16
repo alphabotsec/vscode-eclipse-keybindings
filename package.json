@@ -110,7 +110,15 @@
                 "linux": "ctrl+shift+f",
                 "key": "ctrl+shift+f",
                 "command": "editor.action.formatSelection",
-                "when": "editorTextFocus"
+                "when": "editorTextFocus && editorHasSelection"
+            },
+            {
+                "mac": "cmd+shift+f",
+                "win": "ctrl+shift+f",
+                "linux": "ctrl+shift+f",
+                "key": "ctrl+shift+f",
+                "command": "editor.action.formatDocument",
+                "when": "editorTextFocus && !editorHasSelection"
             },
             {
                 "mac": "cmd+alt+down",
