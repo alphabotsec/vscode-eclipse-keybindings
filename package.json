@@ -153,7 +153,7 @@
                 "when": "editorTextFocus"
             },
             {
-                "mac": "alt+shift+r",
+                "mac": "cmd+alt+r",
                 "win": "alt+shift+r",
                 "linux": "alt+shift+r",
                 "key": "alt+shift+r",
