@@ -19,6 +19,7 @@
         "type": "git",
         "url": "https://github.com/alphabotsec/vscode-eclipse-keybindings.git"
     },
+    "homepage": "https://www.alphabot.com/",
     "bugs": {
         "url": "https://github.com/alphabotsec/vscode-eclipse-keybindings/issues"
     },
