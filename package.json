@@ -89,7 +89,7 @@
                 "command": "workbench.action.splitEditor"
             },
             {
-                "mac": "cmd+m",
+                "mac": "ctrl+m",
                 "win": "ctrl+m",
                 "linux": "ctrl+m",
                 "key": "ctrl+m",
