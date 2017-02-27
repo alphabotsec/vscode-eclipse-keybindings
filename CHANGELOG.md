@@ -1,5 +1,12 @@
 # Change Log
 
+## 0.9.2 (February 27, 2017)
+* enhancement - added ctrl+shift+w close all editors. See [#3](https://github.com/alphabotsec/vscode-eclipse-keybindings/issues/3).
+* enhancement - added ctrl+shift+c comment line. See [#3](https://github.com/alphabotsec/vscode-eclipse-keybindings/issues/3).
+* enhancement - added ctrl+alt+j join lines. See [#3](https://github.com/alphabotsec/vscode-eclipse-keybindings/issues/3).
+* enhancement - added ctrl+m toggle sidebar. See [#3](https://github.com/alphabotsec/vscode-eclipse-keybindings/issues/3).
+* enhancement - added ctrl+e open previously used editor. See [#3](https://github.com/alphabotsec/vscode-eclipse-keybindings/issues/3).
+
 ## 0.9.1 (February 16, 2017)
 * bug fix - Rename/Refactor on macOS same as in Eclipse on macOS (cmd+alt+r)
 * enhancement - Document code format when text is not selected. See [#2](https://github.com/alphabotsec/vscode-eclipse-keybindings/issues/2).
