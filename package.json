@@ -89,11 +89,48 @@
                 "command": "workbench.action.splitEditor"
             },
             {
+                "mac": "ctrl+m",
+                "win": "ctrl+m",
+                "linux": "ctrl+m",
+                "key": "ctrl+m",
+                "command": "workbench.action.toggleSidebarVisibility"
+            },
+            {
+                "mac": "cmd+e",
+                "win": "ctrl+e",
+                "linux": "ctrl+e",
+                "key": "ctrl+e",
+                "command": "workbench.action.openPreviousRecentlyUsedEditorInGroup"
+            },
+            {
+                "mac": "cmd+shift+w",
+                "win": "ctrl+shift+w",
+                "linux": "ctrl+shift+w",
+                "key": "ctrl+shift+w",
+                "command": "workbench.action.closeAllEditors"
+            },
+            {
+                "mac": "cmd+shift+c",
+                "win": "ctrl+shift+c",
+                "linux": "ctrl+shift+c",
+                "key": "ctrl+shift+c",
+                "command": "editor.action.commentLine",
+                "when": "editorTextFocus"
+            },
+            {
                 "mac": "cmd+shift+/",
                 "win": "ctrl+shift+/",
                 "linux": "ctrl+shift+/",
                 "key": "ctrl+shift+/",
-                "command": "editor.action.commentLine",
+                "command": "editor.action.blockComment",
+                "when": "editorTextFocus"
+            },
+            {
+                "mac": "cmd+alt+j",
+                "win": "ctrl+alt+j",
+                "linux": "ctrl+alt+j",
+                "key": "ctrl+alt+j",
+                "command": "editor.action.joinLines",
                 "when": "editorTextFocus"
             },
             {
