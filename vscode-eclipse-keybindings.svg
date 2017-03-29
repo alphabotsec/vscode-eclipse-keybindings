@@ -7,16 +7,16 @@
       <path d="M0.5,0.5 L250.5,0.5 L250.5,250.5 L0.5,250.5 L0.5,0.5 z" fill-opacity="0" stroke="#00007A" stroke-width="1"/>
     </g>
     <g>
-      <path d="M0.5,100.5 L250.5,101.5" fill="#FFFFFF"/>
-      <path d="M0.5,100.5 L250.5,101.5" fill-opacity="0" stroke="#FFFFFF" stroke-width="8"/>
+      <path d="M0.5,100.0 L250.5,100.0" fill="#FFFFFF"/>
+      <path d="M0.5,100.0 L250.5,100.0" fill-opacity="0" stroke="#FFFFFF" stroke-width="8"/>
     </g>
     <g>
-      <path d="M0.5,150.5 L250.5,151.5" fill="#FFFFFF"/>
-      <path d="M0.5,150.5 L250.5,151.5" fill-opacity="0" stroke="#FFFFFF" stroke-width="8"/>
+      <path d="M0.5,150.0 L250.5,150.0" fill="#FFFFFF"/>
+      <path d="M0.5,150.0 L250.5,150.0" fill-opacity="0" stroke="#FFFFFF" stroke-width="8"/>
     </g>
     <g>
-      <path d="M0.5,125.25 L250.5,125.75" fill="#FFFFFF"/>
-      <path d="M0.5,125.25 L250.5,125.75" fill-opacity="0" stroke="#FFFFFF" stroke-width="8"/>
+      <path d="M0.5,125.0 L250.5,125.0" fill="#FFFFFF"/>
+      <path d="M0.5,125.0 L250.5,125.0" fill-opacity="0" stroke="#FFFFFF" stroke-width="8"/>
     </g>
   </g>
 </svg>
