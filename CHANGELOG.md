@@ -1,5 +1,9 @@
 # Change Log
 
+## 0.9.3 (March 29, 2017)
+* enhancement - added ctrl+k next selection. See [#5](https://github.com/alphabotsec/vscode-eclipse-keybindings/issues/5).
+* enhancement - added ctrl+shift+k previous selection. See [#5](https://github.com/alphabotsec/vscode-eclipse-keybindings/issues/5).
+
 ## 0.9.2 (February 27, 2017)
 * enhancement - added ctrl+shift+w close all editors. See [#3](https://github.com/alphabotsec/vscode-eclipse-keybindings/issues/3).
 * enhancement - added ctrl+shift+c comment line. See [#3](https://github.com/alphabotsec/vscode-eclipse-keybindings/issues/3).

@@ -262,6 +262,22 @@
                 "when": "editorTextFocus"
             },
             {
+                "mac": "cmd+k",
+                "win": "ctrl+k",
+                "linux": "ctrl+k",
+                "key": "ctrl+k",
+                "command": "editor.action.nextSelectionMatchFindAction",
+                "when": "editorTextFocus"
+            },
+            {
+                "mac": "cmd+shift+k",
+                "win": "ctrl+shift+k",
+                "linux": "ctrl+shift+k",
+                "key": "ctrl+shift+k",
+                "command": "editor.action.previousSelectionMatchFindAction",
+                "when": "editorTextFocus"
+            },
+            {
                 "mac": "f8",
                 "win": "f8",
                 "linux": "f8",
