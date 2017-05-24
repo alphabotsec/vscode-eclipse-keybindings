@@ -278,6 +278,20 @@
                 "when": "editorTextFocus"
             },
             {
+                "mac": "alt+left",
+                "win": "alt+left",
+                "linux": "alt+left",
+                "key": "alt+left",
+                "command": "workbench.action.navigateBack"
+            }
+            {
+                "mac": "alt+right",
+                "win": "alt+right",
+                "linux": "alt+right",
+                "key": "alt+right",
+                "command": "workbench.action.navigateForward"
+            }
+            {
                 "mac": "f8",
                 "win": "f8",
                 "linux": "f8",
