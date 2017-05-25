@@ -1,5 +1,9 @@
 # Change Log
 
+## 0.9.4 (May 25, 2017)
+* enhancement - added alt+left navigate back. See [#7](https://github.com/alphabotsec/vscode-eclipse-keybindings/pull/7).
+* enhancement - added alt+right navigate forward. See [#7](https://github.com/alphabotsec/vscode-eclipse-keybindings/pull/7).
+
 ## 0.9.3 (March 29, 2017)
 * enhancement - added ctrl+k next selection. See [#5](https://github.com/alphabotsec/vscode-eclipse-keybindings/issues/5).
 * enhancement - added ctrl+shift+k previous selection. See [#5](https://github.com/alphabotsec/vscode-eclipse-keybindings/issues/5).
