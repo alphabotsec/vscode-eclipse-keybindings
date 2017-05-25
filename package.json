@@ -118,6 +118,14 @@
                 "when": "editorTextFocus"
             },
             {
+                "mac": "cmd+/",
+                "win": "ctrl+/",
+                "linux": "ctrl+/",
+                "key": "ctrl+/",
+                "command": "editor.action.commentLine",
+                "when": "editorTextFocus"
+            },
+            {
                 "mac": "cmd+shift+/",
                 "win": "ctrl+shift+/",
                 "linux": "ctrl+shift+/",
