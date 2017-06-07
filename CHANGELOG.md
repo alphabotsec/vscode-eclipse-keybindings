@@ -1,5 +1,9 @@
 # Change Log
 
+## 0.9.5 (June 7, 2017)
+* bug fix - on macOS navigate back should be cmd+alt+left. See [#8](https://github.com/alphabotsec/vscode-eclipse-keybindings/issues/8).
+* bug fix - on macOS navigate forward should be cmd+alt+right. See [#8](https://github.com/alphabotsec/vscode-eclipse-keybindings/issues/8).
+
 ## 0.9.4 (May 25, 2017)
 * enhancement - added alt+left navigate back. See [#7](https://github.com/alphabotsec/vscode-eclipse-keybindings/pull/7).
 * enhancement - added alt+right navigate forward. See [#7](https://github.com/alphabotsec/vscode-eclipse-keybindings/pull/7).
