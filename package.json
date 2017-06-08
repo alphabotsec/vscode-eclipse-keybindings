@@ -266,7 +266,7 @@
                 "win": "ctrl+k",
                 "linux": "ctrl+k",
                 "key": "ctrl+k",
-                "command": "editor.action.nextSelectionMatchFindAction",
+                "command": "editor.action.nextMatchFindAction",
                 "when": "editorTextFocus"
             },
             {
@@ -274,7 +274,7 @@
                 "win": "ctrl+shift+k",
                 "linux": "ctrl+shift+k",
                 "key": "ctrl+shift+k",
-                "command": "editor.action.previousSelectionMatchFindAction",
+                "command": "editor.action.previousMatchFindAction",
                 "when": "editorTextFocus"
             },
             {
