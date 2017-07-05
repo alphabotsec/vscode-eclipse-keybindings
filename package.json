@@ -110,6 +110,20 @@
                 "command": "workbench.action.closeAllEditors"
             },
             {
+                "mac": "cmd+shift+f4",
+                "win": "ctrl+shift+f4",
+                "linux": "ctrl+shift+f4",
+                "key": "ctrl+shift+f4",
+                "command": "workbench.action.closeAllEditors"
+            },
+            {
+                "mac": "cmd+f12",
+                "win": "f12",
+                "linux": "f12",
+                "key": "f12",
+                "command": "workbench.action.focusActiveEditorGroup"
+            },
+            {
                 "mac": "cmd+shift+c",
                 "win": "ctrl+shift+c",
                 "linux": "ctrl+shift+c",
@@ -195,6 +209,14 @@
                 "linux": "ctrl+d",
                 "key": "ctrl+d",
                 "command": "editor.action.deleteLines",
+                "when": "editorTextFocus"
+            },
+            {
+                "mac": "cmd+shift+delete",
+                "win": "ctrl+shift+delete",
+                "linux": "ctrl+shift+delete",
+                "key": "ctrl+shift+delete",
+                "command": "deleteAllRight",
                 "when": "editorTextFocus"
             },
             {
@@ -300,10 +322,10 @@
                 "when": "inDebugMode"
             },
             {
-                "mac": "cmd-f11",
-                "win": "ctrl-f11",
-                "linux": "ctrl-f11",
-                "key": "ctrl-f11",
+                "mac": "cmd+shift+f11",
+                "win": "ctrl+f11",
+                "linux": "ctrl+f11",
+                "key": "ctrl+f11",
                 "command": "workbench.action.debug.start",
                 "when": "!inDebugMode"
             },

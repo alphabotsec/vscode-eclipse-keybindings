@@ -1,5 +1,11 @@
 # Change Log
 
+## 0.9.6 (July 5, 2017)
+* bug fix - on macOS start/debugging should be cmd+shift+f11.
+* enhancement - added f12 focus active editor.
+* enhancement - added ctrl+shift+f4 close all editors.
+* enhancement - added ctrl+shift+delete delete to end of line. See [#10](https://github.com/alphabotsec/vscode-eclipse-keybindings/issues/10).
+
 ## 0.9.5 (June 7, 2017)
 * bug fix - on macOS navigate back should be cmd+alt+left. See [#8](https://github.com/alphabotsec/vscode-eclipse-keybindings/issues/8).
 * bug fix - on macOS navigate forward should be cmd+alt+right. See [#8](https://github.com/alphabotsec/vscode-eclipse-keybindings/issues/8).
