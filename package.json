@@ -212,6 +212,14 @@
                 "when": "editorTextFocus"
             },
             {
+                "mac": "shift+cmd+p",
+                "win": "shift+alt+p",
+                "linux": "shift+alt+p",
+                "key": "shift+alt+p",
+                "command": "editor.action.jumpToBracket",
+                "when": "editorTextFocus"
+            },
+            {
                 "mac": "cmd+shift+delete",
                 "win": "ctrl+shift+delete",
                 "linux": "ctrl+shift+delete",
