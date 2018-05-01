@@ -14,7 +14,7 @@
         "keybindings",
         "keymap"
     ],
-    "icon": "vscode-eclipse-keybindings.svg",
+    "icon": "vscode-eclipse-keybindings.png",
     "repository": {
         "type": "git",
         "url": "https://github.com/alphabotsec/vscode-eclipse-keybindings.git"
