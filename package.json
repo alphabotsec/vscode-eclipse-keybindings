@@ -82,6 +82,13 @@
                 "command": "workbench.action.files.saveAs"
             },
             {
+                "mac": "cmd+alt+t",
+                "win": "ctrl+alt+t",
+                "linux": "ctrl+alt+t",
+                "key": "ctrl+alt+t",
+                "command": "workbench.action.terminal.toggleTerminal"
+            },
+            {
                 "mac": "cmd+shift+{",
                 "win": "ctrl+{",
                 "linux": "ctrl+{",
@@ -234,6 +241,14 @@
                 "key": "ctrl+space",
                 "command": "editor.action.triggerSuggest",
                 "when": "editorTextFocus"
+            },
+            {
+                "mac": "cmd+.",
+                "win": "ctrl+.",
+                "linux": "ctrl+.",
+                "key": "ctrl+.",
+                "command": "editor.action.marker.next",
+                "when": "editorFocus && !editorReadonly"
             },
             {
                 "mac": "f3",

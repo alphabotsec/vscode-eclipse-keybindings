@@ -1,5 +1,9 @@
 # Change Log
 
+## 0.9.7 (May 1, 2018)
+* enhancement - added ctrl+. go to next problem. See [#12](https://github.com/alphabotsec/vscode-eclipse-keybindings/issues/12).
+* enhancement - added ctrl+alt+t toggle integrated terminal.
+
 ## 0.9.6 (July 5, 2017)
 * bug fix - on macOS start/debugging should be cmd+shift+f11.
 * enhancement - added f12 focus active editor.
