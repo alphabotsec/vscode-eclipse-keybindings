@@ -1,5 +1,8 @@
 # Change Log
 
+## 0.9.8 (July 14, 2018)
+* enhancement - added ctrl+shift+o organize imports.
+
 ## 0.9.7 (May 1, 2018)
 * enhancement - added ctrl+. go to next problem. See [#12](https://github.com/alphabotsec/vscode-eclipse-keybindings/issues/12).
 * enhancement - added ctrl+alt+t toggle integrated terminal.
