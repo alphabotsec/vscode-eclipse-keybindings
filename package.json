@@ -147,6 +147,14 @@
                 "when": "editorTextFocus"
             },
             {
+                "mac": "shift+alt+y",
+                "win": "shift+alt+y",
+                "linux": "shift+alt+y",
+                "key": "shift+alt+y",
+                "command": "editor.action.toggleWordWrap",
+                "when": "editorTextFocus"
+            },
+            {
                 "mac": "cmd+alt+j",
                 "win": "ctrl+alt+j",
                 "linux": "ctrl+alt+j",
