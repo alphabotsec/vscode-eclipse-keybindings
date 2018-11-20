@@ -1,5 +1,10 @@
 # Change Log
 
+## 0.9.9 (November 20, 2018)
+* enhancement - added shift+alt+y toggle wordwrap.
+* enhancement - added ctrl+left/right jump one word to the left/right.
+* enhancement - added ctrl+shift+left/right expand selection to left/right word.
+
 ## 0.9.8 (July 14, 2018)
 * enhancement - added ctrl+shift+o organize imports.
 

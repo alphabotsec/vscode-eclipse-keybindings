@@ -331,6 +331,38 @@
                 "when": "editorTextFocus"
             },
             {
+                "mac": "alt+left",
+                "win": "ctrl+left",
+                "linux": "ctrl+left",
+                "key": "ctrl+left",
+                "command": "cursorWordPartLeft",
+                "when": "textInputFocus"
+            },
+            {
+                "mac": "alt+right",
+                "win": "ctrl+right",
+                "linux": "ctrl+right",
+                "key": "ctrl+right",
+                "command": "cursorWordPartRight",
+                "when": "textInputFocus"
+            },
+            {
+                "mac": "alt+shift+left",
+                "win": "ctrl+shift+left",
+                "linux": "ctrl+shift+left",
+                "key": "ctrl+shift+left",
+                "command": "cursorWordPartLeftSelect",
+                "when": "textInputFocus"
+            },
+            {
+                "mac": "alt+shift+right",
+                "win": "ctrl+shift+right",
+                "linux": "ctrl+shift+right",
+                "key": "ctrl+shift+right",
+                "command": "cursorWordPartRightSelect",
+                "when": "textInputFocus"
+            },
+            {
                 "mac": "cmd+alt+left",
                 "win": "alt+left",
                 "linux": "alt+left",
