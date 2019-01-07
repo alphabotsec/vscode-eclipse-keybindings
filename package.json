@@ -423,6 +423,14 @@
                 "key": "ctrl+f2",
                 "command": "workbench.action.debug.stop",
                 "when": "inDebugMode"
+            },
+            {
+                "mac": "cmd+alt+f",
+                "win": "ctrl+alt+f",
+                "linux": "ctrl+alt+f",
+                "key": "ctrl+alt+f",
+                "command": "editor.action.startFindReplaceAction",
+                "when": "editorTextFocus"
             }
         ]
     },
