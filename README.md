@@ -18,7 +18,7 @@ We may have missed a keyboard shortcut. If we did please help us out! It is very
 
 1. Head over to our [GitHub repository](https://github.com/alphabotsec/vscode-eclipse-keybindings). 
 2. Open the [`package.json` file](https://github.com/alphabotsec/vscode-eclipse-keybindings/blob/master/package.json). 
-3. Add a JSON object to [`contributes.keybindings`](https://github.com/alphabotsec/vscode-eclipse-keybindings/package.json)
+3. Add a JSON object to [`contributes.keybindings`](https://github.com/alphabotsec/vscode-eclipse-keybindings/blob/master/package.json). 
 4. Open a pull request.
 
 ## License
