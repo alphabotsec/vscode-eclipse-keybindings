@@ -171,18 +171,18 @@
                 "when": "editorTextFocus"
             },
             {
-                "mac": "cmd+shift+f",
-                "win": "ctrl+shift+f",
-                "linux": "ctrl+shift+f",
-                "key": "ctrl+shift+f",
+                "mac": "cmd+i",
+                "win": "ctrl+i",
+                "linux": "ctrl+i",
+                "key": "ctrl+i",
                 "command": "editor.action.formatSelection",
                 "when": "editorTextFocus && editorHasSelection"
             },
             {
-                "mac": "cmd+shift+f",
-                "win": "ctrl+shift+f",
-                "linux": "ctrl+shift+f",
-                "key": "ctrl+shift+f",
+                "mac": "cmd+i",
+                "win": "ctrl+i",
+                "linux": "ctrl+i",
+                "key": "ctrl+i",
                 "command": "editor.action.formatDocument",
                 "when": "editorTextFocus && !editorHasSelection"
             },
