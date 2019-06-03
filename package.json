@@ -89,13 +89,6 @@
                 "command": "workbench.action.terminal.toggleTerminal"
             },
             {
-                "mac": "cmd+shift+{",
-                "win": "ctrl+{",
-                "linux": "ctrl+{",
-                "key": "ctrl+{",
-                "command": "workbench.action.splitEditor"
-            },
-            {
                 "mac": "ctrl+m",
                 "win": "ctrl+m",
                 "linux": "ctrl+m",
