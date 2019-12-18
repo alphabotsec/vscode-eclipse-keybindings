@@ -416,6 +416,14 @@
                 "key": "ctrl+f2",
                 "command": "workbench.action.debug.stop",
                 "when": "inDebugMode"
+            },
+            {
+                "mac": "ctrl+7",
+                "win": "ctrl+7",
+                "linux": "ctrl+7",
+                "key": "ctrl+7",
+                "command": "editor.action.blockComment",
+                "when": "editorTextFocus"
             }
         ]
     },
