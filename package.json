@@ -100,7 +100,7 @@
                 "win": "ctrl+e",
                 "linux": "ctrl+e",
                 "key": "ctrl+e",
-                "command": "workbench.action.openPreviousRecentlyUsedEditorInGroup"
+                "command": "workbench.action.showEditorsInActiveGroup"
             },
             {
                 "mac": "cmd+shift+w",
