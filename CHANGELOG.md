@@ -1,6 +1,11 @@
 # Change Log
 
-## 0.9.9 (November 20, 2018)
+## 0.11.0 (May 1, 2020)
+* enhancement - added ctrl+7 comment lines. [#25](https://github.com/alphabotsec/vscode-eclipse-keybindings/issues/25).
+* enhancement - better command for ctrl+e open active editor list. [#31](https://github.com/alphabotsec/vscode-eclipse-keybindings/pull/31).
+* enhancement - also support copy lines up/down on Ubuntu. [#28](https://github.com/alphabotsec/vscode-eclipse-keybindings/issues/28).
+
+## 0.10.0 (November 20, 2018)
 * enhancement - added shift+alt+y toggle wordwrap.
 * enhancement - added ctrl+left/right jump one word to the left/right.
 * enhancement - added ctrl+shift+left/right expand selection to left/right word.

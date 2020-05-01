@@ -21,5 +21,9 @@ We may have missed a keyboard shortcut. If we did please help us out! It is very
 3. Add a JSON object to [`contributes.keybindings`](https://github.com/alphabotsec/vscode-eclipse-keybindings/blob/master/package.json). 
 4. Open a pull request.
 
+### Contributors
+
+Thanks to all the [contributors](https://github.com/alphabotsec/vscode-eclipse-keybindings/graphs/contributors)!
+
 ## License
 [MIT](LICENSE.md)
