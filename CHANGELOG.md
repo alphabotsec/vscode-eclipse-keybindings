@@ -1,6 +1,6 @@
 # Change Log
 
-## 0.11.0 (May 1, 2020)
+## 0.12.0 (May 1, 2020)
 * enhancement - added ctrl+7 comment lines. [#25](https://github.com/alphabotsec/vscode-eclipse-keybindings/issues/25).
 * enhancement - better command for ctrl+e open active editor list. [#31](https://github.com/alphabotsec/vscode-eclipse-keybindings/pull/31).
 * enhancement - also support copy lines up/down on Ubuntu. [#28](https://github.com/alphabotsec/vscode-eclipse-keybindings/issues/28).
