@@ -132,6 +132,14 @@
                 "when": "editorTextFocus"
             },
             {
+                "mac": "cmd+7",
+                "win": "ctrl+7",
+                "linux": "ctrl+7",
+                "key": "ctrl+7",
+                "command": "editor.action.commentLine",
+                "when": "editorTextFocus"
+            },
+            {
                 "mac": "cmd+shift+/",
                 "win": "ctrl+shift+/",
                 "linux": "ctrl+shift+/",
