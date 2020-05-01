@@ -196,10 +196,26 @@
                 "when": "editorTextFocus"
             },
             {
+                "mac": "ctrl+alt+cmd+down",
+                "win": "ctrl+alt+win+down",
+                "linux": "ctrl+alt+win+down",
+                "key": "ctrl+alt+win+down",
+                "command": "editor.action.copyLinesDownAction",
+                "when": "editorTextFocus"
+            },
+            {
                 "mac": "cmd+alt+up",
                 "win": "ctrl+alt+up",
                 "linux": "ctrl+alt+up",
                 "key": "ctrl+alt+up",
+                "command": "editor.action.copyLinesUpAction",
+                "when": "editorTextFocus"
+            },
+            {
+                "mac": "ctrl+alt+cmd+up",
+                "win": "ctrl+alt+win+up",
+                "linux": "ctrl+alt+win+up",
+                "key": "ctrl+alt+win+up",
                 "command": "editor.action.copyLinesUpAction",
                 "when": "editorTextFocus"
             },
