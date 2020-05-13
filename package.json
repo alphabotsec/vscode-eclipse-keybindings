@@ -440,6 +440,51 @@
                 "key": "ctrl+f2",
                 "command": "workbench.action.debug.stop",
                 "when": "inDebugMode"
+            },
+            {
+                "key": "ctrl+shift+i",
+                "command": "editor.debug.action.selectionToRepl",
+                "when": "inDebugMode"
+            },
+            {
+                "key": "ctrl+shift+i",
+                "command": "editor.action.formatDocument",
+                "when": "editorHasDocumentFormattingProvider && editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inDebugMode"
+            },
+            {
+                "key": "ctrl+shift+i",
+                "command": "-editor.action.formatDocument",
+                "when": "editorHasDocumentFormattingProvider && editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly"
+            },
+            {
+                "key": "ctrl+shift+i",
+                "command": "editor.action.formatDocument.none",
+                "when": "editorTextFocus && !editorHasDocumentFormattingProvider && !editorHasDocumentFormattingProvider && !editorReadonly && !inDebugMode"
+            },
+            {
+                "key": "ctrl+shift+i",
+                "command": "-editor.action.formatDocument.none",
+                "when": "editorTextFocus && !editorHasDocumentFormattingProvider && !editorHasDocumentFormattingProvider && !editorReadonly"
+            },
+            {
+                "key": "ctrl+shift+i",
+                "command": "notebook.format",
+                "when": "!editorTextFocus && activeEditor == 'workbench.editor.notebook' && !inDebugMode"
+            },
+            {
+                "key": "ctrl+shift+i",
+                "command": "-notebook.format",
+                "when": "!editorTextFocus && activeEditor == 'workbench.editor.notebook'"
+            },
+            {
+                "key": "ctrl+shift+i",
+                "command": "workbench.action.toggleDevTools",
+                "when": "isDevelopment && !inDebugMode"
+            },
+            {
+                "key": "ctrl+shift+i",
+                "command": "-workbench.action.toggleDevTools",
+                "when": "isDevelopment"
             }
         ]
     },
