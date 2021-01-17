@@ -40,7 +40,7 @@
                 "command": "workbench.action.quickOpen"
             },
             {
-                "mac": "ctrl+h",
+                "mac": "cmd+h",
                 "win": "ctrl+h",
                 "linux": "ctrl+h",
                 "key": "ctrl+h",
