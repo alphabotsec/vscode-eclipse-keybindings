@@ -44,7 +44,7 @@
                 "win": "ctrl+h",
                 "linux": "ctrl+h",
                 "key": "ctrl+h",
-                "command": "workbench.view.search"
+                "command": "workbench.action.findInFiles"
             },
             {
                 "mac": "cmd+shift+t",
