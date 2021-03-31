@@ -399,6 +399,16 @@
                 "command": "workbench.action.navigateForward"
             },
             {
+                "mac": "cmd+f7",
+                "key": "ctrl+f7",
+                "command": "workbench.action.focusNextPart"
+            },
+            {
+                "mac": "shift+cmd+f7",
+                "key": "shift+ctrl+f7",
+                "command": "workbench.action.focusPreviousPart"
+            },
+            {
                 "mac": "f8",
                 "win": "f8",
                 "linux": "f8",

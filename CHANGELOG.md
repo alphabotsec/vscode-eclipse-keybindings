@@ -2,6 +2,8 @@
 
 ## 0.13.0 ()
 * enhancement - added shift+enter insert line below. [#27](https://github.com/alphabotsec/vscode-eclipse-keybindings/issues/37).
+* enhancement - added ctrl+f7 focus next part. [#36](https://github.com/alphabotsec/vscode-eclipse-keybindings/issues/36).
+* enhancement - added ctrl+shift+f7 focus previous part. [#36](https://github.com/alphabotsec/vscode-eclipse-keybindings/issues/36).
 * bug fix - fix find in files. [#38](https://github.com/alphabotsec/vscode-eclipse-keybindings/issues/38).
 
 ## 0.12.0 (May 1, 2020)
