@@ -1,5 +1,9 @@
 # Change Log
 
+## 0.13.0 ()
+* enhancement - added shift+enter insert line below. [#27](https://github.com/alphabotsec/vscode-eclipse-keybindings/issues/37).
+* bug fix - fix find in files. [#38](https://github.com/alphabotsec/vscode-eclipse-keybindings/issues/38).
+
 ## 0.12.0 (May 1, 2020)
 * enhancement - added ctrl+7 comment lines. [#25](https://github.com/alphabotsec/vscode-eclipse-keybindings/issues/25).
 * enhancement - better command for ctrl+e open active editor list. [#31](https://github.com/alphabotsec/vscode-eclipse-keybindings/pull/31).
