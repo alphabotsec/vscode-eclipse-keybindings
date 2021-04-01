@@ -1,6 +1,6 @@
 # Change Log
 
-## 0.13.0 ()
+## 0.13.0 (Apr 1, 2021)
 * enhancement - added shift+enter insert line below. [#27](https://github.com/alphabotsec/vscode-eclipse-keybindings/issues/37).
 * enhancement - added ctrl+f7 focus next part. [#36](https://github.com/alphabotsec/vscode-eclipse-keybindings/issues/36).
 * enhancement - added ctrl+shift+f7 focus previous part. [#36](https://github.com/alphabotsec/vscode-eclipse-keybindings/issues/36).
