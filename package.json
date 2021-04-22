@@ -455,6 +455,14 @@
                 "key": "ctrl+f2",
                 "command": "workbench.action.debug.stop",
                 "when": "inDebugMode"
+            },
+            {
+                "mac": "cmd+q",
+                "win": "ctrl+q",
+                "linux": "ctrl+q",
+                "key": "ctrl+q",
+                "command": "workbench.action.navigateToLastEditLocation",
+                "when": "editorTextFocus"
             }
         ]
     },
