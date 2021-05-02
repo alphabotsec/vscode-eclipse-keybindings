@@ -455,6 +455,14 @@
                 "key": "ctrl+f2",
                 "command": "workbench.action.debug.stop",
                 "when": "inDebugMode"
+            },
+            {
+                "mac": "ctrl+alt+h",
+                "win": "ctrl+alt+h",
+                "linux": "ctrl+alt+h",
+                "key": "ctrl+alt+h",
+                "command": "references-view.showCallHierarchy",
+                "when": "editorHasCallHierarchyProvider"
             }
         ]
     },
