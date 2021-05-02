@@ -457,12 +457,19 @@
                 "when": "inDebugMode"
             },
             {
-                "mac": "cmd+q",
+                "mac": "ctrl+q",
                 "win": "ctrl+q",
                 "linux": "ctrl+q",
                 "key": "ctrl+q",
                 "command": "workbench.action.navigateToLastEditLocation",
                 "when": "editorTextFocus"
+              },
+                "mac": "ctrl+alt+h",
+                "win": "ctrl+alt+h",
+                "linux": "ctrl+alt+h",
+                "key": "ctrl+alt+h",
+                "command": "references-view.showCallHierarchy",
+                "when": "editorHasCallHierarchyProvider"
             }
         ]
     },
