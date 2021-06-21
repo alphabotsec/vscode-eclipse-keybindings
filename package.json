@@ -353,6 +353,17 @@
                 "when": "editorTextFocus"
             },
             {
+                "mac": "alt+cmd+m",
+                "win": "alt+shift+m",
+                "linux": "alt+shift+m",
+                "key": "alt+shift+m",
+                "command": "editor.action.codeAction",
+                "when": "editorTextFocus",
+                "args": {
+                    "kind": "refactor.extract.function"
+                }
+            },
+            {
                 "mac": "alt+left",
                 "win": "ctrl+left",
                 "linux": "ctrl+left",
