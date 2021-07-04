@@ -1,6 +1,14 @@
 # Change Log
 
-## 0.13.0 (Apr 1, 2021)
+## 0.14.0 (July 4, 2021)
+* enhancement - added ctrl+q last edit location. [#40](https://github.com/alphabotsec/vscode-eclipse-keybindings/pull/40).
+* enhancement - added ctrl+alt+h call hierarchy. [#41](https://github.com/alphabotsec/vscode-eclipse-keybindings/pull/41).
+* enhancement - added f4 type hierarchy. [#43](https://github.com/alphabotsec/vscode-eclipse-keybindings/pull/43).
+* enhancement - added alt+shift+v move... . [#44](https://github.com/alphabotsec/vscode-eclipse-keybindings/pull/44).
+* enhancement - added alt+shift+m extract method. [#45](https://github.com/alphabotsec/vscode-eclipse-keybindings/pull/45).
+* enhancement - added alt+shift+l extract local variable. [#46](https://github.com/alphabotsec/vscode-eclipse-keybindings/pull/46).
+
+## 0.13.0 (April 1, 2021)
 * enhancement - added shift+enter insert line below. [#27](https://github.com/alphabotsec/vscode-eclipse-keybindings/issues/37).
 * enhancement - added ctrl+f7 focus next part. [#36](https://github.com/alphabotsec/vscode-eclipse-keybindings/issues/36).
 * enhancement - added ctrl+shift+f7 focus previous part. [#36](https://github.com/alphabotsec/vscode-eclipse-keybindings/issues/36).
