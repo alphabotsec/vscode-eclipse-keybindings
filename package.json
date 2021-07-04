@@ -2,7 +2,7 @@
     "name": "vscode-eclipse-keybindings",
     "displayName": "Eclipse Keymap",
     "description": "Eclipse keybindings for Visual Studio Code",
-    "version": "0.13.0",
+    "version": "0.14.0",
     "publisher": "alphabotsec",
     "engines": {
         "vscode": "^1.6.0"
@@ -24,7 +24,8 @@
         "url": "https://github.com/alphabotsec/vscode-eclipse-keybindings/issues"
     },
     "contributes": {
-        "keybindings": [{
+        "keybindings": [
+            {
                 "mac": "cmd+3",
                 "win": "ctrl+3",
                 "linux": "ctrl+3",
@@ -372,8 +373,8 @@
                 "args": {
                     "kind": "refactor.extract.function"
                 }
-             },
-             {
+            },
+            {
                 "mac": "alt+cmd+v",
                 "win": "alt+shift+v",
                 "linux": "alt+shift+v",
