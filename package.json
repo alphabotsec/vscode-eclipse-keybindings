@@ -24,8 +24,7 @@
         "url": "https://github.com/alphabotsec/vscode-eclipse-keybindings/issues"
     },
     "contributes": {
-        "keybindings": [
-            {
+        "keybindings": [{
                 "mac": "cmd+3",
                 "win": "ctrl+3",
                 "linux": "ctrl+3",
@@ -362,6 +361,17 @@
                 "args": {
                     "kind": "refactor.extract.function"
                 }
+             },
+             {
+                "mac": "alt+cmd+v",
+                "win": "alt+shift+v",
+                "linux": "alt+shift+v",
+                "key": "alt+shift+v",
+                "command": "editor.action.codeAction",
+                "when": "editorTextFocus",
+                "args": {
+                    "kind": "refactor.move"
+                }
             },
             {
                 "mac": "alt+left",
@@ -468,12 +478,28 @@
                 "when": "inDebugMode"
             },
             {
+                "mac": "ctrl+q",
+                "win": "ctrl+q",
+                "linux": "ctrl+q",
+                "key": "ctrl+q",
+                "command": "workbench.action.navigateToLastEditLocation",
+                "when": "editorTextFocus"
+            },
+            {
                 "mac": "ctrl+alt+h",
                 "win": "ctrl+alt+h",
                 "linux": "ctrl+alt+h",
                 "key": "ctrl+alt+h",
                 "command": "references-view.showCallHierarchy",
                 "when": "editorHasCallHierarchyProvider"
+            },
+            {
+                "mac": "f4",
+                "win": "f4",
+                "linux": "f4",
+                "key": "f4",
+                "command": "java.action.showTypeHierarchy",
+                "when": "editorLangId == java && editorTextFocus"
             }
         ]
     },
