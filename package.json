@@ -24,8 +24,7 @@
         "url": "https://github.com/alphabotsec/vscode-eclipse-keybindings/issues"
     },
     "contributes": {
-        "keybindings": [
-            {
+        "keybindings": [{
                 "mac": "cmd+3",
                 "win": "ctrl+3",
                 "linux": "ctrl+3",
@@ -474,7 +473,8 @@
                 "key": "ctrl+q",
                 "command": "workbench.action.navigateToLastEditLocation",
                 "when": "editorTextFocus"
-              },
+            },
+            {
                 "mac": "ctrl+alt+h",
                 "win": "ctrl+alt+h",
                 "linux": "ctrl+alt+h",
