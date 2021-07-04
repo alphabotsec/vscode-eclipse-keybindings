@@ -470,6 +470,14 @@
                 "key": "ctrl+alt+h",
                 "command": "references-view.showCallHierarchy",
                 "when": "editorHasCallHierarchyProvider"
+            },
+            {
+                "mac": "f4",
+                "win": "f4",
+                "linux": "f4",
+                "key": "f4",
+                "command": "java.action.showTypeHierarchy",
+                "when": "editorLangId == java && editorTextFocus"
             }
         ]
     },
