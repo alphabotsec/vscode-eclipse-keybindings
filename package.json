@@ -458,6 +458,14 @@
                 "when": "debuggersAvailable && debugState == 'inactive'"
             },
             {
+                "mac": "cmd+shift+f11",
+                "win": "ctrl+f11",
+                "linux": "ctrl+f11",
+                "key": "ctrl+f11",
+                "command": "workbench.action.debug.run",
+                "when": "debuggersAvailable && debugState != 'initializing'"
+            },
+            {
                 "mac": "f5",
                 "win": "f5",
                 "linux": "f5",
