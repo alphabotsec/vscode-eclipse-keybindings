@@ -54,6 +54,13 @@
                 "command": "workbench.action.showAllSymbols"
             },
             {
+                "mac": "cmd+f3",
+                "win": "ctrl+f3",
+                "linux": "ctrl+f3",
+                "key": "ctrl+f3",
+                "command": "outline.focus"
+            },
+            {
                 "mac": "cmd+l",
                 "win": "ctrl+l",
                 "linux": "ctrl+l",
