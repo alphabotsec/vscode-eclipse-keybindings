@@ -353,6 +353,14 @@
                 "when": "editorTextFocus"
             },
             {
+                "mac": "alt+cmd+t",
+                "win": "alt+shift+t",
+                "linux": "alt+shift+t",
+                "key": "alt+shift+t",
+                "command": "editor.action.refactor",
+                "when": "editorHasCodeActionsProvider && editorTextFocus && !editorReadonly"
+            },
+            {
                 "mac": "alt+cmd+l",
                 "win": "alt+shift+l",
                 "linux": "alt+shift+l",
