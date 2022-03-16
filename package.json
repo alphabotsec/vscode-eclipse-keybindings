@@ -264,6 +264,14 @@
                 "when": "editorTextFocus"
             },
             {
+                "mac": "cmd+alt+s",
+                "win": "alt+shift+s",
+                "linux": "alt+shift+s",
+                "key": "alt+shift+s",
+                "command": "editor.action.sourceAction",
+                "when": "editorTextFocus"
+            },
+            {
                 "mac": "cmd+alt+r",
                 "win": "alt+shift+r",
                 "linux": "alt+shift+r",
