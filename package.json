@@ -450,12 +450,12 @@
                 "when": "inDebugMode"
             },
             {
-                "mac": "cmd+shift+f11",
-                "win": "ctrl+f11",
-                "linux": "ctrl+f11",
-                "key": "ctrl+f11",
+                "mac": "cmd+f11",
+                "win": "f11",
+                "linux": "f11",
+                "key": "f11",
                 "command": "workbench.action.debug.start",
-                "when": "!inDebugMode"
+                "when": "debuggersAvailable && debugState == 'inactive'"
             },
             {
                 "mac": "f5",
