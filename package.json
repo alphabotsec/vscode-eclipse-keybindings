@@ -124,6 +124,13 @@
                 "command": "workbench.action.focusActiveEditorGroup"
             },
             {
+                "mac": "cmd+shift+[",
+                "win": "ctrl+shift+[",
+                "linux": "ctrl+shift+[",
+                "key": "ctrl+shift+[",
+                "command": "workbench.action.splitEditor"
+            },
+            {
                 "mac": "cmd+shift+c",
                 "win": "ctrl+shift+c",
                 "linux": "ctrl+shift+c",
