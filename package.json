@@ -543,6 +543,14 @@
                 "key": "f4",
                 "command": "java.action.showTypeHierarchy",
                 "when": "editorLangId == java && editorTextFocus"
+            },
+            {
+                "mac": "shift+cmd+up",
+                "win": "alt+shift+up",
+                "linux": "shift+ctrl+up",
+                "key": "alt+shift+up",
+                "command": "editor.action.smartSelect.expand",
+                "when": "editorLangId == java && editorTextFocus"
             }
         ]
     },
