@@ -550,7 +550,7 @@
                 "linux": "alt+shift+up",
                 "key": "alt+shift+up",
                 "command": "editor.action.smartSelect.expand",
-                "when": "editorLangId == java && editorTextFocus"
+                "when": "editorTextFocus"
             }
         ]
     },
