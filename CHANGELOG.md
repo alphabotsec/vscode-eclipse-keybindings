@@ -1,5 +1,8 @@
 # Change Log
 
+## 0.15.0 (May X, 2022)
+* enhancement - ctrl+f now opens the search and replace box. [#27](https://github.com/alphabotsec/vscode-eclipse-keybindings/issues/27).
+
 ## 0.14.0 (July 4, 2021)
 * enhancement - added ctrl+q last edit location. [#40](https://github.com/alphabotsec/vscode-eclipse-keybindings/pull/40).
 * enhancement - added ctrl+alt+h call hierarchy. [#41](https://github.com/alphabotsec/vscode-eclipse-keybindings/pull/41).
