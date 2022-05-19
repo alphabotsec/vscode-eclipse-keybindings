@@ -545,9 +545,9 @@
                 "when": "editorLangId == java && editorTextFocus"
             },
             {
-                "mac": "shift+cmd+up",
+                "mac": "alt+shift+up",
                 "win": "alt+shift+up",
-                "linux": "shift+ctrl+up",
+                "linux": "alt+shift+up",
                 "key": "alt+shift+up",
                 "command": "editor.action.smartSelect.expand",
                 "when": "editorLangId == java && editorTextFocus"
