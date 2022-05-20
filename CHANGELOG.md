@@ -1,7 +1,14 @@
 # Change Log
 
-## 0.15.0 (May X, 2022)
-* enhancement - ctrl+f now opens the search and replace box. [#27](https://github.com/alphabotsec/vscode-eclipse-keybindings/issues/27).
+## 0.15.0 (May 20, 2022)
+* enhancement - ctrl+f (cmd+f) now opens the search and replace box. [#27](https://github.com/alphabotsec/vscode-eclipse-keybindings/issues/27).
+* enhancement - ctrl+f3 (cmd+f3) open structure/outline [#52](https://github.com/alphabotsec/vscode-eclipse-keybindings/pull/52).
+* enhancement - ctrl+{ (cmd+{) split editor (does not work on all keyboard layouts) [#53](https://github.com/alphabotsec/vscode-eclipse-keybindings/pull/53).
+* enhancement - alt+shift+t (alt+cmd+t) show refactor menu [#54](https://github.com/alphabotsec/vscode-eclipse-keybindings/pull/54).
+* enhancement - alt+shift+s (alt+cmd+s) show source action menu [#55](https://github.com/alphabotsec/vscode-eclipse-keybindings/pull/55).
+* enhancement - f11 (cmd+f11) debug start [#56](https://github.com/alphabotsec/vscode-eclipse-keybindings/pull/56).
+* enhancement - alt+shift+up expand selection (does not work on macOS) [#57](https://github.com/alphabotsec/vscode-eclipse-keybindings/pull/57).
+* bug fix - ctrl+f11 (cmd+shift+f11) fix run [#56](https://github.com/alphabotsec/vscode-eclipse-keybindings/pull/56).
 
 ## 0.14.0 (July 4, 2021)
 * enhancement - added ctrl+q last edit location. [#40](https://github.com/alphabotsec/vscode-eclipse-keybindings/pull/40).

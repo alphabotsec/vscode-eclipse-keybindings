@@ -8,7 +8,7 @@ Eclipse key bindings are provided for Windows, Linux and macOS.
 
 The key bindings consist of general shortcuts like `Ctrl-Shift-R`, `Ctrl-3`, text editor keybindings like `Ctrl-Shift-F`, `Ctrl-L` and debugging key bindings like  `F8`, `Ctrl-Shift-B`.
 
-For a full list of the 40+ key bindings have a look at the extension's contribution list. 
+For a full list of the 60+ key bindings have a look at the extension's contribution list. 
 
 
 ## Contributing
@@ -23,7 +23,8 @@ We may have missed a keyboard shortcut. If we did please help us out! It is very
 
 ### Contributors
 
-Thanks to all the [contributors](https://github.com/alphabotsec/vscode-eclipse-keybindings/graphs/contributors)!
+ * Special thanks to [Shi Chen](https://github.com/CsCherrYY)!
+ * Thanks to all the [contributors](https://github.com/alphabotsec/vscode-eclipse-keybindings/graphs/contributors)!
 
 ## License
 [MIT](LICENSE.md)
