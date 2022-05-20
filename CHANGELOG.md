@@ -1,6 +1,6 @@
 # Change Log
 
-## 0.15.0 (May 20, 2022)
+## 0.16.0 (May 20, 2022)
 * enhancement - ctrl+f (cmd+f) now opens the search and replace box. [#27](https://github.com/alphabotsec/vscode-eclipse-keybindings/issues/27).
 * enhancement - ctrl+f3 (cmd+f3) open structure/outline [#52](https://github.com/alphabotsec/vscode-eclipse-keybindings/pull/52).
 * enhancement - ctrl+{ (cmd+{) split editor (does not work on all keyboard layouts) [#53](https://github.com/alphabotsec/vscode-eclipse-keybindings/pull/53).
