@@ -359,14 +359,6 @@
                 "when": "editorTextFocus"
             },
             {
-                "mac": "cmd+f",
-                "win": "ctrl+f",
-                "linux": "ctrl+f",
-                "key": "ctrl+f",
-                "command": "editor.action.startFindReplaceAction",
-                "when": "editorFocus || editorIsOpen"
-            },
-            {
                 "mac": "cmd+k",
                 "win": "ctrl+k",
                 "linux": "ctrl+k",
