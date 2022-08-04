@@ -558,6 +558,14 @@
                 "key": "alt+shift+up",
                 "command": "editor.action.smartSelect.expand",
                 "when": "editorTextFocus"
+            },
+            {
+                "mac": "cmd+shift+p",
+                "win": "ctrl+shift+p",
+                "linux": "ctrl+shift+p",
+                "key": "ctrl+shift+p",
+                "command": "editor.action.jumpToBracket",
+                "when": "editorTextFocus"
             }
         ]
     },
