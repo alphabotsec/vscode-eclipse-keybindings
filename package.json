@@ -448,6 +448,22 @@
                 "when": "textInputFocus"
             },
             {
+                "mac": "alt+backspace",
+                "win": "ctrl+backspace",
+                "linux": "ctrl+backspace",
+                "key": "ctrl+backspace",
+                "command": "deleteWordPartLeft",
+                "when": "textInputFocus"
+            },
+            {
+                "mac": "alt+delete",
+                "win": "ctrl+delete",
+                "linux": "ctrl+delete",
+                "key": "ctrl+delete",
+                "command": "deleteWordPartRight",
+                "when": "textInputFocus"
+            },
+            {
                 "mac": "cmd+alt+left",
                 "win": "alt+left",
                 "linux": "alt+left",
