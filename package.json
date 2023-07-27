@@ -558,6 +558,14 @@
                 "key": "alt+shift+up",
                 "command": "editor.action.smartSelect.expand",
                 "when": "editorTextFocus"
+            },
+            {
+                "mac": "shift+alt+a",
+                "win": "shift+alt+a",
+                "linux": "shift+alt+a",
+                "key": "shift+alt+a",
+                "command": "editor.action.toggleColumnSelection",
+                "when": "editorTextFocus"
             }
         ]
     },
