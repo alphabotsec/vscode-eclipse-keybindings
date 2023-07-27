@@ -100,7 +100,7 @@
                 "win": "ctrl+m",
                 "linux": "ctrl+m",
                 "key": "ctrl+m",
-                "command": "workbench.action.toggleSidebarVisibility"
+                "command": "workbench.action.toggleZenMode"
             },
             {
                 "mac": "cmd+e",
