@@ -574,6 +574,14 @@
                 "key": "ctrl+numpad_add",
                 "command": "editor.unfold",
                 "when": "editorTextFocus && foldingEnabled"
+            },
+            {
+                "mac": "shift+alt+a",
+                "win": "shift+alt+a",
+                "linux": "shift+alt+a",
+                "key": "shift+alt+a",
+                "command": "editor.action.toggleColumnSelection",
+                "when": "editorTextFocus"
             }
         ]
     },
