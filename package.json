@@ -582,6 +582,13 @@
                 "key": "shift+alt+a",
                 "command": "editor.action.toggleColumnSelection",
                 "when": "editorTextFocus"
+            },
+            {
+                "mac": "ctrl+f6",
+                "win": "ctrl+f6",
+                "linux": "ctrl+f6",
+                "key": "ctrl+f6",
+                "command": "workbench.action.focusNextGroup"
             }
         ]
     },
