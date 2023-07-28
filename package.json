@@ -558,6 +558,13 @@
                 "key": "alt+shift+up",
                 "command": "editor.action.smartSelect.expand",
                 "when": "editorTextFocus"
+            },
+            {
+                "mac": "ctrl+f6",
+                "win": "ctrl+f6",
+                "linux": "ctrl+f6",
+                "key": "ctrl+f6",
+                "command": "workbench.action.focusNextGroup"
             }
         ]
     },
