@@ -558,6 +558,17 @@
                 "key": "alt+shift+up",
                 "command": "editor.action.smartSelect.expand",
                 "when": "editorTextFocus"
+            },
+            {
+                "mac": "ctrl+2 ctrl+l",
+                "win": "ctrl+2 ctrl+l",
+                "linux": "ctrl+2 ctrl+l",
+                "key": "ctrl+2 ctrl+l",
+                "command": "editor.action.codeAction",
+                "args": {
+                  "kind": "refactor.assign.variable"
+                },
+                "when": "editorHasCodeActionsProvider && editorTextFocus && !editorReadonly"
             }
         ]
     },
