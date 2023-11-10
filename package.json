@@ -100,7 +100,7 @@
                 "win": "ctrl+m",
                 "linux": "ctrl+m",
                 "key": "ctrl+m",
-                "command": "workbench.action.toggleSidebarVisibility"
+                "command": "workbench.action.toggleZenMode"
             },
             {
                 "mac": "cmd+e",
@@ -558,6 +558,45 @@
                 "key": "alt+shift+up",
                 "command": "editor.action.smartSelect.expand",
                 "when": "editorTextFocus"
+            },
+            {
+                "mac": "ctrl+numpad_subtract",
+                "win": "ctrl+numpad_subtract",
+                "linux": "ctrl+numpad_subtract",
+                "key": "ctrl+numpad_subtract",
+                "command": "editor.fold",
+                "when": "editorTextFocus && foldingEnabled"
+            },
+            {
+                "mac": "ctrl+numpad_add",
+                "win": "ctrl+numpad_add",
+                "linux": "ctrl+numpad_add",
+                "key": "ctrl+numpad_add",
+                "command": "editor.unfold",
+                "when": "editorTextFocus && foldingEnabled"
+            },
+            {
+                "mac": "shift+alt+a",
+                "win": "shift+alt+a",
+                "linux": "shift+alt+a",
+                "key": "shift+alt+a",
+                "command": "editor.action.toggleColumnSelection",
+                "when": "editorTextFocus"
+            },
+            {
+                "mac": "ctrl+f6",
+                "win": "ctrl+f6",
+                "linux": "ctrl+f6",
+                "key": "ctrl+f6",
+                "command": "workbench.action.focusNextGroup"
+            },
+            {
+                "mac": "ctrl+w",
+                "win": "ctrl+w",
+                "linux": "ctrl+w",
+                "key": "ctrl+w",
+                "command": "workbench.action.terminal.kill",
+                "when": "terminalFocus"
             }
         ]
     },
