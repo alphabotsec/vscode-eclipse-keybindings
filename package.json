@@ -589,6 +589,14 @@
                 "linux": "ctrl+f6",
                 "key": "ctrl+f6",
                 "command": "workbench.action.focusNextGroup"
+            },
+            {
+                "mac": "ctrl+w",
+                "win": "ctrl+w",
+                "linux": "ctrl+w",
+                "key": "ctrl+w",
+                "command": "workbench.action.terminal.kill",
+                "when": "terminalFocus"
             }
         ]
     },
